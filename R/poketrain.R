@@ -39,6 +39,6 @@ poketrain <- function(selected_pokemon, data) {
       weight_kg = ifelse(name %in% selected_pokemon, weight_kg * 0.9, weight_kg),
       experience_growth = ifelse(name %in% selected_pokemon, experience_growth * 1.05, experience_growth)
     )
-
+print("I choose you!")
   return(data)
 }
